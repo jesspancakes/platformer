@@ -22,6 +22,11 @@ public class FallPlat : MonoBehaviour
 	IEnumerator Fall(float time)
 	{
 		yield return new WaitForSeconds(time);
-		Destroy(gameObject);
+		gameObject.SetActive(false);
+	}
+
+	public void ResetPlatform()
+	{
+		gameObject.SetActive(true);
 	}
 }
