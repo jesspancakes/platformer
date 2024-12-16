@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/platformer.unity
+    guid: bc60175d0d4c16342a527def7f2d0907
   m_configObjects: {}
